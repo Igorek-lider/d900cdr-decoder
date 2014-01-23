@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Decoder", "Test.Decoder\Test.Decoder.csproj", "{BA656F39-6193-4DF3-AB78-5D943FB57EA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D900Cdr.Decoder", "D900Cdr.Decoder\D900Cdr.Decoder.csproj", "{5350B504-ECD8-4A52-B342-7FB3F3256CCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decoder", "Decoder\Decoder.csproj", "{064CAC23-640C-4088-9BDB-4704B29A868B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viewer", "Viewer\Viewer.csproj", "{E57DBD88-2411-4F35-B380-097591FF4F85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{970EF4CD-C9A6-4061-BA9F-6C86B3B1D2A9}"
+	ProjectSection(SolutionItems) = preProject
+		D900Cdr.Decoder.vsmdi = D900Cdr.Decoder.vsmdi
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = D900Cdr.Decoder.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA656F39-6193-4DF3-AB78-5D943FB57EA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA656F39-6193-4DF3-AB78-5D943FB57EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA656F39-6193-4DF3-AB78-5D943FB57EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA656F39-6193-4DF3-AB78-5D943FB57EA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5350B504-ECD8-4A52-B342-7FB3F3256CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5350B504-ECD8-4A52-B342-7FB3F3256CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5350B504-ECD8-4A52-B342-7FB3F3256CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5350B504-ECD8-4A52-B342-7FB3F3256CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{064CAC23-640C-4088-9BDB-4704B29A868B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{064CAC23-640C-4088-9BDB-4704B29A868B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{064CAC23-640C-4088-9BDB-4704B29A868B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{064CAC23-640C-4088-9BDB-4704B29A868B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E57DBD88-2411-4F35-B380-097591FF4F85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E57DBD88-2411-4F35-B380-097591FF4F85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E57DBD88-2411-4F35-B380-097591FF4F85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E57DBD88-2411-4F35-B380-097591FF4F85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
